@@ -14,7 +14,7 @@ class Lock_barrel():
         self.no_digits=3
         self.no_rows=2
         try:
-            with open(os.path.join(os.path.dirname(__file__),'lock_barrel.ini'), 'r') as f:
+            with open(os.path.join(os.path.dirname(__file__),'lockbarrel.ini'), 'r') as f:
                 for line in f:
                     a=line.strip()
                     tmp=a.split('=')
